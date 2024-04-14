@@ -1,42 +1,42 @@
 export const db = [
     {
         title: "deep earth",
-        image: "src/assets/image-deep-earth.jpg",
+        image: "https://i.ibb.co/bWsPy4y/image-deep-earth.jpg",
         id:1
     },
     {
         title: "night arcade",
-        image: "src/assets/image-night-arcade.jpg",
+        image: "https://i.ibb.co/s5vPz1M/image-night-arcade.jpg",
         id:2
     },
     {
         title: "soccer team vr",
-        image: "src/assets/image-soccer-team.jpg",
+        image: "https://i.ibb.co/60zVz0C/image-soccer-team.jpg",
         id:3
     },
     {
         title: "the grid",
-        image: "src/assets/image-grid.jpg",
+        image: "https://i.ibb.co/T4BTKQ0/image-grid.jpg",
         id:4
     },
     {
         title: "from up above vr",
-        image: "src/assets/image-from-above.jpg",
+        image: "https://i.ibb.co/tswW9mp/image-from-above.jpg",
         id:5
     },
     {
         title: "pocket borealis",
-        image: "src/assets/image-pocket-borealis.jpg",
+        image: "https://i.ibb.co/p1JS9JW/image-pocket-borealis.jpg",
         id:6
     },
     {
         title: "the curiosity",
-        image: "src/assets/image-curiosity.jpg",
+        image: "https://i.ibb.co/ccm4dx3/image-curiosity.jpg",
         id:7
     },
     {
         title: "make it fisheye",
-        image: "src/assets/image-fisheye.jpg",
+        image: "https://i.ibb.co/cgmcQNg/image-fisheye.jpg",
         id:8
     },
 ]
