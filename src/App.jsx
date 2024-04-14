@@ -1,11 +1,13 @@
 import Header from './layout/Header/Header'
+import Presentation from './layout/Presentation/Presentation'
+import Creations from './layout/Creations/Creations'
 import './App.css'
-import Main from './layout/Main/Main'
 function App() {
   return (
     <>
       <Header />
-      <Main />
+      <Presentation />
+      <Creations/>
     </>
   )
 }
