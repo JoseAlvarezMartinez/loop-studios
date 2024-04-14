@@ -11,5 +11,8 @@
     text-transform: uppercase;
     background-color: unset;
     padding: .5rem 3rem;
-    margin: 1rem 0;
+    margin: 2rem 0;
+}
+.background-8{
+    margin-bottom: 0 !important;
 }
