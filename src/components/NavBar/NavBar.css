@@ -1,0 +1,21 @@
+.navBar-enlace {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.navBar{
+    display: flex;
+    justify-content: center;
+}
+.navBar-ul{
+    margin: 0;
+    padding: 0;
+}
+.navBar-li{
+    margin: 1rem 0;
+    text-align: center;
+}
+.navBar-li:last-child{
+    margin-bottom: 0;
+}

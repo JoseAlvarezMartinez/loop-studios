@@ -6,3 +6,10 @@
 .main-container h2{
     text-transform: uppercase;
 }
+.main-button{
+    border: 1px solid #000;
+    text-transform: uppercase;
+    background-color: unset;
+    padding: .5rem 3rem;
+    margin: 1rem 0;
+}
