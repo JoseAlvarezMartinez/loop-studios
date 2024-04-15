@@ -24,37 +24,50 @@
     gap: .5rem;
     margin: 1.5rem 0;
 }
-.icon-animation{
+
+.icon-animation {
     transition: transform .2s;
     cursor: pointer;
 }
-.icon-animation:hover{
-    transform:scale(1.1);
+
+.icon-animation:hover {
+    transform: scale(1.1);
 }
+
 @media only screen and (min-width: 900px) {
     .navBar-ul-footer {
-        display: flex ;
+        display: flex;
         gap: 2rem;
     }
-    .logo-container{
+
+    .logo-container {
         margin-top: 0;
     }
-    .desktop-container{
+
+    .desktop-container {
         display: grid;
         align-items: center;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(2, 1fr);
 
         width: 90%;
         margin: 0 auto;
     }
-    .desktop-right-footer{
+
+    .desktop-right-footer {
         justify-self: end;
     }
-    .footer-h2{
+
+    .footer-h2 {
         text-align: start;
     }
-    .footer-p{
+
+    .footer-p {
         padding-bottom: 0;
     }
-   
+
+    .desktop-left-container {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
 }
