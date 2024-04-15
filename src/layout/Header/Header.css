@@ -26,7 +26,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1rem;
+    padding: 1rem 2rem;
 }
 
 .color-white {
@@ -49,5 +49,10 @@
     .header-container{
         margin: 0 auto;
         width: 90%;
+    }
+}
+@media only screen and (min-width: 900px){
+    .testing{
+        display: none;
     }
 }

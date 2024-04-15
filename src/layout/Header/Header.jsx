@@ -6,20 +6,22 @@ import "./Header.css"
 const Header = () => {
 
     const [isOpen, setOpen] = useState(false)
-    const documento = document.body
 
     useEffect(() => {
         if (isOpen) {
-            documento.style.overflow = "hidden"
+            document.body.style.overflow = "hidden"
         } else {
-            documento.style.overflow = "auto"
+            document.body.style.overflow = "auto"
         }
     }, [isOpen])
     return (
         <header className="header">
             <section className={`header-navbar ${isOpen && "active"}`}>
                 <h1 className="header-h1 color-white">loopstudios</h1>
-                <Hamburger color='#fff' toggled={isOpen} toggle={setOpen} />
+
+                <div className="testing">
+                    <Hamburger color='#fff' toggled={isOpen} toggle={setOpen} />
+                </div>
 
                 <NavBar isOpen={isOpen} />
             </section>
