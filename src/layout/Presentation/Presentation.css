@@ -12,8 +12,9 @@
 .presentation-h2 {
     text-transform: uppercase;
     font-weight: 400;
-    font-size: 1.7rem;
+    font-size: 2rem;
     text-align: center;
+    
 }
 
 .presentation-p {
@@ -26,4 +27,19 @@
         margin: 0 auto;
         width: 80%;
     }
+}
+
+@media only screen and (min-width: 800px) {
+    .presentation-image {
+        width: 60%;
+        align-self: stretch;
+        object-fit: cover;
+    }
+
+    .presentation-container {
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+    }
+
 }
