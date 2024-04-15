@@ -26,10 +26,10 @@ const Footer = () => {
                 </div>
                 <div className="desktop-right-footer">
                     <div className="logo-container">
-                        <AiOutlineFacebook size={"2rem"} color="#fff" />
-                        <RiTwitterLine size={"2rem"} color="#fff" />
-                        <FaPinterestP size={"2rem"} color="#fff" />
-                        <FaInstagram size={"2rem"} color="#fff" />
+                        <AiOutlineFacebook className="icon-animation" size={"2rem"} color="#fff" />
+                        <RiTwitterLine className="icon-animation"  size={"2rem"} color="#fff" />
+                        <FaPinterestP className="icon-animation"  size={"2rem"} color="#fff" />
+                        <FaInstagram className="icon-animation" size={"2rem"} color="#fff" />
                     </div>
                     <p className="footer-p">&#169;{getAnio()} Loopstudios. All rights reserved.</p>
                 </div>

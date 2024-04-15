@@ -12,6 +12,11 @@
     background-color: unset;
     padding: .5rem 3rem;
     margin: 2rem 0;
+    transition: transform .2s;
+    cursor: pointer;
+}
+.main-button:hover{
+    transform:scale(1.1);
 }
 .background-8{
     margin-bottom: 0 !important;
