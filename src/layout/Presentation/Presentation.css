@@ -20,3 +20,10 @@
     color: rgb(62, 62, 62);
     text-align: center;
 }
+
+@media only screen and (min-width: 600px) {
+    .presentation-container {
+        margin: 0 auto;
+        width: 80%;
+    }
+}
