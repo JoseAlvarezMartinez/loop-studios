@@ -7,7 +7,7 @@ const Creations = () => {
     return (
         <main className="main-container">
             <h2 className="main-h2">Our Creations</h2>
-            <div className="contenedor-prueba">
+            <div className="container-creation">
                 {data.map(creation => <CreationComponent key={creation.id} creation={creation} />)}
             </div>
             <button className="main-button">see all</button>
