@@ -10,25 +10,30 @@ const Footer = () => {
     }
     return (
         <footer className="footer-container">
-            <h2 className="footer-h2">loopstudios</h2>
+            <div className="desktop-container">
+                <div className="desktop-left-container">
+                    <h2 className="footer-h2">loopstudios</h2>
 
-            <nav className={`navBar`}>
-                <ul className="navBar-ul">
-                    <li className="navBar-li"><a className="navBar-enlace" href="#">About</a></li>
-                    <li className="navBar-li"><a className="navBar-enlace" href="#">Careers</a></li>
-                    <li className="navBar-li"><a className="navBar-enlace" href="#">Events</a></li>
-                    <li className="navBar-li"><a className="navBar-enlace" href="#">Products</a></li>
-                    <li className="navBar-li"><a className="navBar-enlace" href="#">Support</a></li>
-                </ul>
-            </nav>
-
-            <div className="logo-container">
-                <AiOutlineFacebook size={"2rem"} color="#fff" />
-                <RiTwitterLine size={"2rem"} color="#fff" />
-                <FaPinterestP size={"2rem"} color="#fff" />
-                <FaInstagram size={"2rem"} color="#fff" />
+                    <nav className={`navBar`}>
+                        <ul className="navBar-ul navBar-ul-footer">
+                            <li className="navBar-li"><a className="navBar-enlace" href="#">About</a></li>
+                            <li className="navBar-li"><a className="navBar-enlace" href="#">Careers</a></li>
+                            <li className="navBar-li"><a className="navBar-enlace" href="#">Events</a></li>
+                            <li className="navBar-li"><a className="navBar-enlace" href="#">Products</a></li>
+                            <li className="navBar-li"><a className="navBar-enlace" href="#">Support</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div className="desktop-right-footer">
+                    <div className="logo-container">
+                        <AiOutlineFacebook size={"2rem"} color="#fff" />
+                        <RiTwitterLine size={"2rem"} color="#fff" />
+                        <FaPinterestP size={"2rem"} color="#fff" />
+                        <FaInstagram size={"2rem"} color="#fff" />
+                    </div>
+                    <p className="footer-p">&#169;{getAnio()} Loopstudios. All rights reserved.</p>
+                </div>
             </div>
-            <p className="footer-p">&#169;{getAnio()} Loopstudios. All rights reserved.</p>
         </footer>
 
     )

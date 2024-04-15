@@ -16,3 +16,10 @@
 .background-8{
     margin-bottom: 0 !important;
 }
+.contenedor-prueba{
+    height: 100%;
+    width: 80%;
+
+    display: grid;  
+    grid-template-columns: repeat(4,1fr);
+}

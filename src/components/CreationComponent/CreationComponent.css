@@ -26,3 +26,13 @@
 .background-6 {
     background-position: right;
 }
+
+
+@media only screen and (min-width: 900px){
+    .creation-container{
+        height: 20rem;
+    }
+    .creation-container h2 {
+        line-height: 2rem;
+    }
+}
