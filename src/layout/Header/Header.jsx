@@ -11,7 +11,7 @@ const Header = () => {
     useEffect(() => {
         if (isOpen) {
             documento.style.overflow = "hidden"
-        }else{
+        } else {
             documento.style.overflow = "auto"
         }
     }, [isOpen])
